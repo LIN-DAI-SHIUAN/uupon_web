@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+html, body{
+    font-family: 'cwTeXKai', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    background-color:rgba(245,245,245,0.5);
+}
+section#menu-0 nav.mynavbar{
+    background-color:rgba(245,245,245,0.5);
+    height:65px;
+    /*line-height: 65px;*/
+}
+section.roration{
+    margin-top: 90px;
+}
+section#contacts1-z{
+    margin-top:0;
+}
+section.mbr-gallery{
+    margin-bottom: 100px;
+}
+#menu-0 .link, #menu-0 .dropdown-item {
+    color:#6f6e6e;
+}
+.navbar-dropdown .mbr-table-cell{
+    height: 0rem;
+}
+#menu-0 .dropdown-item, #menu-0 .nav-dropdown-sm .link {
+    font-size: 0.85rem;
+}
+#menu-0 .link[aria-expanded="true"], #menu-0 .dropdown-menu {
+    background:rgba(111,110,110,0.8);
+}
+#menu-0 .link[aria-expanded="true"], #menu-0 .dropdown-item[aria-expanded="true"] {
+    color: #fff!important;
+}
+#menu-0 .link:hover, #menu-0 .dropdown-item:hover, #menu-0 .link:focus, #menu-0 .dropdown-item:focus {
+    color: #6f6e6e;
+    font-size:15px;
+}
+#menu-0 a.dropdown-item, #menu-0 a.dropdown-item:hover {
+    color: #fff;
+}
+section.mbr-cards{
+    margin: 25px auto;
+}
+.mbr-small-footer a, .mbr-gallery-filter li:hover {
+    color: #fff;
+}

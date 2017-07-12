@@ -1,0 +1,8 @@
+html, body{
+    margin-left: 0;
+    margin-right: 0;
+    width:100%;
+}
+.navbar-dropdown .navbar-logo img{
+    margin-top:-5px;
+}
